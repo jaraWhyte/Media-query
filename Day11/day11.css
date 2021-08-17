@@ -1,0 +1,98 @@
+header {
+background-color: rgb(49, 47, 47);
+height:  38vh;
+width: 99vw;
+margin: 0%;
+padding-top: 50%;
+display:inline-flex;
+justify-content: center;
+align-items: center;
+}
+
+h1 {
+  color: aqua;
+  text-align: center;
+  padding: 15vh 0vh 15vh 0vh;
+}
+ 
+.bitcon {
+  width: 100px;
+}
+
+.fun {
+  background-color: aqua;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  height: 60%;
+  width: auto;
+}
+
+.menu {
+  height: 15vh;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px 0px 10px;
+}
+
+#menu {
+  width: 10vw;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+.ride {
+  /* text-decoration: 4px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label:hover {
+  color: yellow;
+  background-color: black;
+}
+
+@media screen and (max-width: 480px) {
+  .fun  {
+    background-color: rgb(49, 47, 47);
+  }
+
+  .menu {
+    color: #fff;
+  }
+
+    h2 {
+      color: yellow;
+      }
+}
+
+@media screen and (min-width: 481px) and (max-width: 680px) {
+  header  {
+    background-color: aqua;
+  }
+
+    h1 {
+      color: rgb(49, 47, 47);
+}
+.fun {
+  background-color: black;
+  color: aqua;
+}
+}
+
+@media screen and (min-width: 900px) {
+  .parallax {
+    background-image: url("../images/main-bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200%;
+    min-height: 50vh;
+    max-width: 100%; 
+}
+}
