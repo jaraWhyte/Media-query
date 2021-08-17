@@ -1,4 +1,4 @@
-# **Media-query**
+# **Media-query/Parallax**
 ## *A web page to practice  media query and parallax effect.*
 ## Media query used to tailor document pages to different screen sizes.
 ## 4 different desaigns have been created based on sreen sizes;
